@@ -5,6 +5,7 @@
 # http://www.eclipse.org/legal/epl-v10.html
 # Contributors:
 # Codenvy, S.A. - initial API and implementation
+#Estoy aprendiendo a crear recetas
 
 FROM codenvy/debian_jre
 ENV NODE_VERSION=6.6.0 \
