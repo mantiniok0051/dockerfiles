@@ -44,6 +44,7 @@ RUN cd /home/user && curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NO
 EXPOSE 3000 5000 9000
 RUN sudo npm install -g npm@latest
 RUN sudo npm install --unsafe-perm -g gulp bower grunt grunt-cli yeoman-generator yo generator-angular generator-karma generator-webapp
+RUN sudo npm install -g polymer-cli
 
 WORKDIR /projects
 
